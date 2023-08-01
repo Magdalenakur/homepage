@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurowicka Magdalena</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body js-body">
+    <header class="header">
+        <h1 class="header__header">Witam, nazywam się Magda.</h1>
+    </header>
+    <button class="button js-button">Włącz <span class="js-button__themeName">ciemny</span> motyw</button>
+    <nav class="navigation">
+        <ul>
+            <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#moje-hobby">Moje hobby</a></li>
+            <li class="navigation__listItem"><a class="navigation__link" href="#moje-podróże">Moje podróże</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section" id="o-mnie">
+            <img width="200" height="200" src="https://i.postimg.cc/tC5Mb1hn/received-778766393110968.jpg"
+                alt="Kurowicka Magdalena">
+            <p>
+                Chciałabym przedstawić kilka informacji o mnie. Pochodze z małej miejscowiści w okolicy
+                Kosowa Lackiego.
+                <br>
+                Ukończyłam tam liceum, a potem wyjechałam do Warszawy. Obecnie pracuje w piekarni na
+                stanowisku sprzedawcy.<br>Mam 27 Lat i postanowiłam coś <em>zmienić</em> w życiu zawodowym. Dlatego
+                pomyślałam <strong>chcę</strong> spróbować programowania.
+            </p>
+        </section>
+        <section class="section" id="moje-hobby">
+            <h2>Moje hobby</h2>
+            <div>
+                <p>W wolnym czasie bardzo lubię gotować, chodzić na spacery, a moim <b>marzeniem</b>
+                    jest wyjechać na
+                    wędrówkę w
+                    góry. <br><i>„Każdy chce mieszkać na szczycie góry, ale całe szczęście i rozwój pojawiają się, gdy
+                        się na nią wspinasz”. – Andy Rooney</i></p>
+                <p>Od dwóch lat intensywnie jeżdżę rowerem i niebawem planuję wyruszych na rowerową pielgrzymkę.</p>
+            </div>
+            <p class="akapit">Jestem <span class="ciekawyElement">kreatywna</span> i potrafię pracować w zespole, a
+                także dobrze organizuję czas pracy. </p>
+        </section>
+        <section id="moje-podróże">
+            <div class="container">
+                <table class="table">
+                    <caption>
+                        Moje podróże
+                    </caption>
+                    <tr class="table__row" class="table__row">
+                        <th class="table__cell table__cell--header" score="col">Dokąd</th>
+                        <th class="table__cell table__cell--header" score="col">Kiedy</th>
+                        <th class="table__cell table__cell--header" score="col">Z kim</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" score="row">Stegna</th>
+                        <td class="table__cell">2004</td>
+                        <td class="table__cell">z siostrą na koloniach</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" score="row">Kraków</th>
+                        <td class="table__cell">2010</td>
+                        <td class="table__cell">z klasą na koloniach</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" score="row">Odessa</th>
+                        <td class="table__cell" rowspan="2">2018</td>
+                        <td class="table__cell" rowspan="2">z rodzeństwem</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" score="row">Wilno</th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">Dane kontaktowe:<br>
+        <a href="mailto:magda.kurowicka.95@wp.pl">magda.kurowicka.95@wp.pl</a>
+    </footer>
+</body>
+
+</html>
